@@ -24,7 +24,7 @@ body {
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 620px;
+  width: 820px;
   background-color: rgba(255, 255, 255, 0);
   overflow: hidden;
   border-radius: 8px;
@@ -34,7 +34,7 @@ body {
 }
 
 .picture {
-  width: 320px;
+  width: 420px;
   height: 320px;
   overflow: hidden;
 }
@@ -78,11 +78,18 @@ body {
   background: linear-gradient(167deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6982143199076505) 49%);
   content: "";
   display: block;
-  width: 620px;
+  width: 820px;
   height: 320px;
   z-index: -1;
 }
 
+
+
+@media screen and (max-width: 768px){
+  .swiper-slide{
+    width: 620px;
+  }
+}
 
 @media screen and (max-width: 576px){
   .swiper-button-prev{
